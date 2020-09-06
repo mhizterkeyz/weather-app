@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Emmanuel Menyaga -- Developer -- @mhizterkeyz
+
+# THANKS
+
+    Emmanuel Menyaga
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Vanilla JS, Modernizr, Normalize.css

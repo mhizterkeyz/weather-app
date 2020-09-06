@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" type="image/png" sizes="48x48" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <title>Weather App</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#516eff" />
+    <meta name="description" content="Real time weather app" />
+
+    <!-- <link rel="manifest" href="site.webmanifest" /> -->
+
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="logo192.png" />
+    <!-- Place favicon.ico in the root directory -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <noscript> This app requires javascript to work properly </noscript>
+    <div id="root"></div>
+
+    <button class="add-location-button" title="add location">
+      +<span class="sr-only">Add a new location</span>
+    </button>
+
+    <div class="preloader"></div>
+    <div class="alert">
+      <div>
+        <p>!</p>
+        <p class="message"></p>
+      </div>
+      <button
+        onclick="document.querySelector('.alert').classList.remove('show')"
+      >
+        &times;
+        <span class="sr-only">close alert</span>
+      </button>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
