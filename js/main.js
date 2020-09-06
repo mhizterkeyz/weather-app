@@ -251,8 +251,8 @@ if ("serviceWorker" in navigator) {
                   children: imageComponent({
                     alt: "weather icon",
                     src: state.weather.icon,
+                    reg: (state, el) => (el.src = state.weather.icon),
                   }),
-                  reg: (state, el) => (el.src = state.weather.icon),
                 }),
                 paragraphComponent({
                   class: "header-weather-temperature",

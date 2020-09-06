@@ -419,6 +419,8 @@ header::after {
 }
 .header-content > p:last-child {
   font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: capitalize;
 }
 
 .header-weather {
